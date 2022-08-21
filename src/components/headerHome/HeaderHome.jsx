@@ -20,6 +20,7 @@ const HeaderHome = () => {
           <a className="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hook</a>
           <div className="dropdown-menu" aria-labelledby="dropdownId">
             <NavLink className="dropdown-item" to="/usestate">UseState</NavLink>
+            <NavLink className="dropdown-item" to="/useeffect">UseEffect</NavLink>
           </div>
         </li>
       </ul>
