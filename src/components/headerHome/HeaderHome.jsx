@@ -21,6 +21,11 @@ const HeaderHome = () => {
           <div className="dropdown-menu" aria-labelledby="dropdownId">
             <NavLink className="dropdown-item" to="/usestate">UseState</NavLink>
             <NavLink className="dropdown-item" to="/useeffect">UseEffect</NavLink>
+            <NavLink className="dropdown-item" to="/usecallback">UseCallback</NavLink>
+            <NavLink className="dropdown-item" to="/usememo">UseMemo</NavLink>
+            <NavLink className="dropdown-item" to="/useref">UseRef</NavLink>
+            <NavLink className="dropdown-item" to="/useredux">UseRedux</NavLink>
+
           </div>
         </li>
       </ul>
